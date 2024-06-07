@@ -205,6 +205,16 @@ section {
   margin-top: 1rem;
   gap: 1rem;
 }
+/* Social Icons Hover Effect */
+#socials-container .icon {
+  transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth transition */
+}
+
+#socials-container .icon:hover {
+  transform: scale(1.1); /* Scale the icon */
+  opacity: 0.8; /* Change the opacity */
+}
+
 
 /* ICONS */
 
